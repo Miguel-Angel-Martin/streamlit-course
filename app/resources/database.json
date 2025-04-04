@@ -1,0 +1,61 @@
+{
+    "type": "SQLite",
+    "name": "AVL Material Tracker",
+    "tables": [
+        {
+            "name": "User",
+            "description": "",
+            "schema": "CREATE TABLE \"User\" (\n\t\"UserKey\" VARCHAR NOT NULL, \n\t\"Email\" VARCHAR NOT NULL, \n\t\"Password\" VARCHAR NOT NULL, \n\t\"Role\" VARCHAR NOT NULL, \n\tPRIMARY KEY (\"UserKey\"), \n\tUNIQUE (\"Email\")\n)"
+        },
+        {
+            "name": "Warehouse",
+            "description": "",
+            "schema": "CREATE TABLE \"Warehouse\" (\n\t\"Id\" INTEGER NOT NULL, \n\t\"Name\" VARCHAR NOT NULL, \n\t\"Location\" VARCHAR, \n\tPRIMARY KEY (\"Id\")\n)"
+        },
+        {
+            "name": "Project",
+            "description": "",
+            "schema": "CREATE TABLE \"Project\" (\n\t\"Id\" VARCHAR NOT NULL, \n\tPRIMARY KEY (\"Id\")\n)"
+        },
+        {
+            "name": "Vendor",
+            "description": "",
+            "schema": "CREATE TABLE \"Vendor\" (\n\t\"Number\" VARCHAR NOT NULL, \n\t\"Company\" VARCHAR, \n\t\"Search_Term\" VARCHAR, \n\t\"Street1\" VARCHAR, \n\t\"Street2\" VARCHAR, \n\t\"City\" VARCHAR, \n\t\"State\" VARCHAR, \n\t\"Postal_Code\" VARCHAR, \n\t\"Country\" VARCHAR, \n\t\"Phone\" VARCHAR, \n\t\"Fax\" VARCHAR, \n\t\"VAT_Reg_No\" VARCHAR, \n\t\"Risk\" VARCHAR, \n\t\"ABC_Rating\" VARCHAR, \n\t\"Currency\" VARCHAR, \n\t\"DateOfEntry\" VARCHAR, \n\t\"ISO_9001\" VARCHAR, \n\t\"ISO_14001\" VARCHAR, \n\t\"ISO_27001\" VARCHAR, \n\t\"Title\" VARCHAR, \n\t\"First_Name\" VARCHAR, \n\t\"Last_Name\" VARCHAR, \n\t\"Department\" VARCHAR, \n\t\"Position\" VARCHAR, \n\t\"Email\" VARCHAR, \n\t\"Cell_Phone_Number\" VARCHAR, \n\t\"Contact_Number\" VARCHAR, \n\t\"Contact_City\" VARCHAR, \n\t\"Contact_Country\" VARCHAR, \n\tPRIMARY KEY (\"Number\")\n)"
+        },
+        {
+            "name": "GR_File",
+            "description": "",
+            "schema": "CREATE TABLE \"GR_File\" (\n\t\"Date\" VARCHAR NOT NULL, \n\tPRIMARY KEY (\"Date\")\n)"
+        },
+        {
+            "name": "Request",
+            "description": "",
+            "schema": "CREATE TABLE \"Request\" (\n\t\"Id\" INTEGER NOT NULL, \n\t\"UserRequester\" VARCHAR NOT NULL, \n\t\"Status\" VARCHAR NOT NULL, \n\t\"Type\" VARCHAR NOT NULL, \n\t\"WarehouseNotes\" VARCHAR, \n\t\"EndUser\" VARCHAR, \n\t\"Warehouse_Id\" INTEGER NOT NULL, \n\t\"Project_Id\" VARCHAR NOT NULL, \"Posting_date\" DATE, \"Time\" TIME, \n\tPRIMARY KEY (\"Id\"), \n\tFOREIGN KEY(\"UserRequester\") REFERENCES \"User\" (\"Email\"), \n\tFOREIGN KEY(\"Warehouse_Id\") REFERENCES \"Warehouse\" (\"Id\"), \n\tFOREIGN KEY(\"Project_Id\") REFERENCES \"Project\" (\"Id\")\n)"
+        },
+        {
+            "name": "Material",
+            "description": "",
+            "schema": "CREATE TABLE \"Material\" (\n\t\"PO_PO_Item\" VARCHAR NOT NULL, \n\t\"Stock\" INTEGER NOT NULL, \n\t\"Warehouse_Id\" INTEGER NOT NULL, \n\t\"Vendor_Number\" VARCHAR NOT NULL, \n\t\"Short_Description\" VARCHAR, \n\t\"Long_Text\" VARCHAR NOT NULL, \n\t\"Project_Id\" VARCHAR, \n\t\"WBS\" VARCHAR, \n\t\"Pending_QTY_To_Receive\" INTEGER, \n\tPRIMARY KEY (\"PO_PO_Item\"), \n\tFOREIGN KEY(\"Warehouse_Id\") REFERENCES \"Warehouse\" (\"Id\"), \n\tFOREIGN KEY(\"Project_Id\") REFERENCES \"Project\" (\"Id\")\n)"
+        },
+        {
+            "name": "Transaction",
+            "description": "",
+            "schema": "CREATE TABLE \"Transaction\" (\n\t\"Id\" INTEGER NOT NULL, \n\t\"Type\" VARCHAR NOT NULL, \n\t\"PO_PO_Item\" VARCHAR NOT NULL, \n\t\"SO_SO_Item\" VARCHAR, \n\t\"User\" VARCHAR NOT NULL, \n\t\"Posting_date\" VARCHAR, \n\t\"Time\" VARCHAR, \n\t\"Transact_QTY\" INTEGER NOT NULL, \n\t\"Notes\" VARCHAR, \n\tPRIMARY KEY (\"Id\"), \n\tFOREIGN KEY(\"PO_PO_Item\") REFERENCES \"Material\" (\"PO_PO_Item\"), \n\tFOREIGN KEY(\"User\") REFERENCES \"User\" (\"UserKey\")\n)"
+        },
+        {
+            "name": "RequestLine",
+            "description": "",
+            "schema": "CREATE TABLE \"RequestLine\" (\n\t\"Id\" INTEGER NOT NULL, \n\t\"Request_Id\" INTEGER NOT NULL, \n\t\"Transaction_Id\" INTEGER, \n\t\"PO_PO_Item\" VARCHAR NOT NULL, \n\t\"Requested_Qty\" INTEGER NOT NULL, \n\t\"Status\" VARCHAR NOT NULL, \n\tPRIMARY KEY (\"Id\"), \n\tFOREIGN KEY(\"Request_Id\") REFERENCES \"Request\" (\"Id\"), \n\tFOREIGN KEY(\"Transaction_Id\") REFERENCES \"Transaction\" (\"Id\")\n)"
+        },
+        {
+            "name": "Keyword",
+            "description": "",
+            "schema": "CREATE TABLE \"Keyword\" (\n\t\"Id\" INTEGER NOT NULL, \n\t\"Value\" VARCHAR NOT NULL, \n\tPRIMARY KEY (\"Id\"), \n\tUNIQUE (\"Value\")\n)"
+        },
+        {
+            "name": "alembic_version",
+            "description": "",
+            "schema": "CREATE TABLE alembic_version (\n\tversion_num VARCHAR(32) NOT NULL, \n\tCONSTRAINT alembic_version_pkc PRIMARY KEY (version_num)\n)"
+        }
+    ]
+}

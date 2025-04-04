@@ -1,0 +1,20 @@
+{
+    "prompts": {
+        "rag": "You are an assistant for question-answering tasks. Your name is RAG Bot, and you work for AVL. Your job is to find data in a SQL database by making queries to it. Below is the query you made and the returned results, use it to answer the user question.\n\n{context}",
+        "nodata": "You are an assistant for question-answering tasks. Your name is RAG Bot, and you work for AVL. Your job is to find data in a SQL database by making queries to it, but for this user question were not able to find it. Tell the user you tried the following queries, but were unable to obtain the information.\n\n{context}",
+        "sql_query": "You will be presented with a {database_name} database, along with the description of its tables and a user question. Your task is to write a {database_name} query that when executed it will return the answer to the user question. Avoid using SELECT *, and instead query by individual columns.\n\n### SCHEMA ###\n{schema}\n\n### USER QUESTION ###\n{question}\n{retry_prompt}\n\nMake an explanation on how you would create the {database_name} query and then return it in markdown format like this:\n```sql\n\"Your query here\"\n```",
+        "sql_retry": "Your previous {database_name} query returned an error\nQuery: {query}\nError: {error}"
+    },
+    "models": {
+        "llm": "Google - gemini-2.0-flash"
+    },
+    "rag": {
+        "chat_history": 1,
+        "max_context": 8192,
+        "llm_temperature": 0.5,
+        "sql_tries": 3
+    },
+    "credentials": {
+    
+    }
+}

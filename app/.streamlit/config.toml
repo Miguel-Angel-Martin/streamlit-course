@@ -1,0 +1,8 @@
+[client]
+showSidebarNavigation = false
+
+[connections.sqlite]
+type = "sql"
+
+[theme]
+primaryColor = "#2596be"
