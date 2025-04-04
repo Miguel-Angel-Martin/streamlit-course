@@ -3,6 +3,5 @@
 __pycache__/
 .env
 .venv/
-app/AvlMaterialTracker.db
-app/notebooks
-app/lib/rag.py
+
+
