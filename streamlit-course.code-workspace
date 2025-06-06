@@ -4,5 +4,26 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#a95d63",
+			"activityBar.background": "#a95d63",
+			"activityBar.foreground": "#e7e7e7",
+			"activityBar.inactiveForeground": "#e7e7e799",
+			"activityBarBadge.background": "#87bd82",
+			"activityBarBadge.foreground": "#15202b",
+			"commandCenter.border": "#e7e7e799",
+			"sash.hoverBorder": "#a95d63",
+			"statusBar.background": "#8a494e",
+			"statusBar.foreground": "#e7e7e7",
+			"statusBarItem.hoverBackground": "#a95d63",
+			"statusBarItem.remoteBackground": "#8a494e",
+			"statusBarItem.remoteForeground": "#e7e7e7",
+			"titleBar.activeBackground": "#8a494e",
+			"titleBar.activeForeground": "#e7e7e7",
+			"titleBar.inactiveBackground": "#8a494e99",
+			"titleBar.inactiveForeground": "#e7e7e799"
+		},
+		"peacock.color": "#8A494E"
+	}
 }
