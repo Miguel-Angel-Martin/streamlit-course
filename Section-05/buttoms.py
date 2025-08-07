@@ -37,6 +37,7 @@ if "counter" not in st.session_state:
     
 if st.button("Increment"):
     st.session_state.counter +=1
+    
 if st.button("Decrement"):
     st.session_state.counter -=1
 
