@@ -1,0 +1,1001 @@
+id,car,model,year,color
+1,Ford,Expedition,2012,Turquoise
+2,Volkswagen,GTI,1996,Blue
+3,Mercedes-Benz,S-Class,1990,Violet
+4,Buick,Electra,1987,Purple
+5,Pontiac,Trans Sport,1999,Fuscia
+6,Mitsubishi,Galant,1998,Maroon
+7,Mitsubishi,Montero,2006,Pink
+8,Dodge,Magnum,2008,Goldenrod
+9,GMC,Suburban 1500,1998,Turquoise
+10,Nissan,Armada,2011,Teal
+11,Geo,Prizm,1994,Red
+12,Isuzu,Hombre,2000,Maroon
+13,GMC,Rally Wagon G2500,1995,Mauv
+14,Toyota,Tacoma,2005,Pink
+15,Dodge,Ram Wagon B350,1994,Indigo
+16,Pontiac,G6,2007,Khaki
+17,Mercedes-Benz,G-Class,2004,Turquoise
+18,Oldsmobile,Cutlass Supreme,1995,Teal
+19,Honda,Prelude,1984,Crimson
+20,Suzuki,Vitara,2001,Khaki
+21,Suzuki,Daewoo Lacetti,2007,Pink
+22,Ford,Excursion,2004,Khaki
+23,Mercedes-Benz,W201,1992,Puce
+24,Lincoln,Town Car,1984,Orange
+25,Mitsubishi,3000GT,1999,Purple
+26,Mercedes-Benz,SLR McLaren,2007,Turquoise
+27,Isuzu,Axiom,2002,Puce
+28,Nissan,GT-R,2013,Mauv
+29,Buick,Coachbuilder,1993,Teal
+30,Ford,Explorer,2009,Khaki
+31,Ford,F-Series,1997,Indigo
+32,Volvo,XC90,2013,Red
+33,Infiniti,I,2001,Pink
+34,GMC,Rally Wagon 2500,1992,Pink
+35,Pontiac,Firebird,1998,Khaki
+36,Infiniti,J,1995,Teal
+37,Honda,Accord,1998,Mauv
+38,Mercedes-Benz,300SE,1992,Khaki
+39,Lexus,LS,1991,Goldenrod
+40,GMC,Envoy XUV,2004,Pink
+41,Chevrolet,Silverado,1999,Blue
+42,Ford,Thunderbird,1996,Green
+43,Jaguar,XJ Series,1999,Fuscia
+44,Mercury,Grand Marquis,1992,Pink
+45,Mitsubishi,Starion,1989,Turquoise
+46,Lexus,SC,2003,Puce
+47,Pontiac,Vibe,2005,Orange
+48,Mazda,626,1990,Teal
+49,Isuzu,Ascender,2006,Khaki
+50,Lexus,LS,1999,Turquoise
+51,Chevrolet,S10,1992,Puce
+52,Chevrolet,Corsica,1993,Aquamarine
+53,Lincoln,Continental,1988,Maroon
+54,Hyundai,Sonata,2000,Green
+55,BMW,5 Series,2006,Khaki
+56,GMC,Safari,1996,Yellow
+57,Ford,E-Series,2011,Yellow
+58,Chevrolet,Silverado 1500,2012,Maroon
+59,Dodge,Stratus,2003,Goldenrod
+60,Ford,F350,1997,Violet
+61,Nissan,Xterra,2009,Mauv
+62,Ford,E150,1984,Green
+63,Dodge,Dakota Club,1993,Mauv
+64,Ford,Explorer,2002,Puce
+65,Mazda,Mazda6 5-Door,2006,Violet
+66,Dodge,Ram 2500,2005,Purple
+67,Subaru,Legacy,1999,Pink
+68,Ford,Explorer Sport Trac,2007,Crimson
+69,Audi,A5,2008,Puce
+70,Dodge,Spirit,1993,Turquoise
+71,Suzuki,Swift,2000,Violet
+72,Jeep,Grand Cherokee,2011,Pink
+73,Volkswagen,Jetta III,1993,Fuscia
+74,Dodge,Caliber,2011,Green
+75,Infiniti,G35,2006,Pink
+76,Jeep,Compass,2008,Crimson
+77,Ford,F-Series,2006,Puce
+78,Mazda,B-Series Plus,1995,Violet
+79,Ford,Taurus,2008,Fuscia
+80,Mitsubishi,Precis,1986,Green
+81,Lincoln,Town Car,2006,Red
+82,Volkswagen,Touareg,2003,Mauv
+83,Chevrolet,Suburban 2500,2006,Turquoise
+84,GMC,Yukon XL 1500,2003,Green
+85,Ford,Econoline E150,1994,Mauv
+86,Chevrolet,Monte Carlo,1999,Orange
+87,BMW,3 Series,2002,Maroon
+88,Lamborghini,Countach,1988,Violet
+89,Lincoln,Continental,1998,Goldenrod
+90,Dodge,Ram Van B250,1994,Fuscia
+91,Audi,5000S,1986,Khaki
+92,Ford,Mustang,1992,Violet
+93,Mazda,CX-9,2007,Khaki
+94,Volkswagen,Passat,1991,Crimson
+95,Toyota,Supra,1996,Indigo
+96,Mercury,Tracer,1992,Khaki
+97,Mazda,B-Series,1992,Fuscia
+98,Volkswagen,rio,1999,Orange
+99,Mitsubishi,3000GT,1994,Green
+100,Chevrolet,Silverado 3500,2009,Fuscia
+101,Lexus,RX,2006,Teal
+102,Mazda,Miata MX-5,2008,Pink
+103,Mazda,929,1994,Turquoise
+104,Lexus,GX,2008,Khaki
+105,BMW,5 Series,1998,Blue
+106,Nissan,Frontier,2011,Khaki
+107,Land Rover,Range Rover,2006,Green
+108,GMC,Yukon XL 1500,2002,Red
+109,Lincoln,Continental Mark VII,1988,Maroon
+110,BMW,760,2006,Violet
+111,Ford,F-Series,2009,Orange
+112,Jeep,Wrangler,2004,Violet
+113,Audi,Coupe GT,1986,Blue
+114,Ford,Explorer Sport,2002,Teal
+115,Ford,F150,1995,Blue
+116,Volkswagen,Touareg,2011,Khaki
+117,Hyundai,Accent,2009,Violet
+118,Honda,Insight,2003,Puce
+119,Volvo,S80,2010,Fuscia
+120,Dodge,Viper,1994,Yellow
+121,Volvo,S80,2010,Puce
+122,Eagle,Vision,1995,Teal
+123,GMC,Sierra 3500,2003,Pink
+124,Porsche,Cayenne,2006,Fuscia
+125,Mercedes-Benz,W126,1981,Goldenrod
+126,Hyundai,Sonata,2008,Goldenrod
+127,Jeep,Patriot,2011,Mauv
+128,Toyota,T100,1996,Pink
+129,Chevrolet,Corvette,1996,Blue
+130,Ram,2500,2012,Violet
+131,Toyota,4Runner,2000,Mauv
+132,Mitsubishi,Galant,2003,Orange
+133,Mitsubishi,Pajero,1993,Goldenrod
+134,Jeep,Liberty,2009,Khaki
+135,Chevrolet,Blazer,1997,Blue
+136,Honda,Civic Si,2003,Orange
+137,Buick,Skylark,1996,Crimson
+138,Geo,Metro,1992,Aquamarine
+139,Cadillac,Escalade,2000,Puce
+140,Mercedes-Benz,300SD,1993,Aquamarine
+141,Toyota,TundraMax,2007,Orange
+142,Lexus,RX,2003,Goldenrod
+143,Mercury,Monterey,2005,Violet
+144,GMC,Savana 2500,2004,Green
+145,Audi,TT,2009,Goldenrod
+146,Kia,Sportage,1995,Aquamarine
+147,Lexus,IS-F,2012,Purple
+148,MINI,Cooper Clubman,2011,Aquamarine
+149,Audi,RS4,2008,Teal
+150,Saturn,Sky,2008,Violet
+151,Isuzu,Trooper,1994,Mauv
+152,Ford,Escape,2010,Orange
+153,Volvo,S80,1999,Aquamarine
+154,Dodge,Ram Van 3500,1999,Blue
+155,Mercury,Topaz,1992,Teal
+156,Jaguar,XF,2009,Goldenrod
+157,MINI,Clubman,2012,Fuscia
+158,Plymouth,Grand Voyager,2000,Green
+159,Chrysler,Concorde,1993,Teal
+160,Mazda,Mazda5,2006,Goldenrod
+161,GMC,Vandura G2500,1995,Maroon
+162,Dodge,Caravan,2004,Pink
+163,Hyundai,Santa Fe,2003,Maroon
+164,Chrysler,Town & Country,1997,Green
+165,Mazda,Tribute,2001,Yellow
+166,Ford,Taurus,2007,Maroon
+167,Oldsmobile,Intrigue,1998,Violet
+168,Ford,Freestar,2003,Blue
+169,Toyota,Camry Hybrid,2010,Goldenrod
+170,Lamborghini,Murciélago LP640,2008,Fuscia
+171,Audi,Cabriolet,1994,Aquamarine
+172,Jaguar,XJ Series,2004,Red
+173,Pontiac,Firebird,1992,Yellow
+174,Mitsubishi,Endeavor,2009,Purple
+175,Mercedes-Benz,S-Class,1995,Mauv
+176,BMW,M3,2012,Yellow
+177,Nissan,Altima,2005,Aquamarine
+178,Chevrolet,Suburban 2500,2009,Purple
+179,GMC,Yukon XL 1500,2008,Violet
+180,Ford,Thunderbird,1972,Violet
+181,Lamborghini,Murciélago,2005,Teal
+182,Lincoln,Town Car,1995,Pink
+183,Nissan,Murano,2005,Aquamarine
+184,Isuzu,i-Series,2008,Maroon
+185,Chevrolet,Silverado 1500,2007,Maroon
+186,Mercedes-Benz,S-Class,2004,Crimson
+187,Ford,Windstar,2000,Crimson
+188,Mitsubishi,Eclipse,2003,Khaki
+189,GMC,Savana 2500,2003,Mauv
+190,GMC,2500,1992,Mauv
+191,Pontiac,Sunfire,1996,Indigo
+192,Hyundai,Accent,1996,Teal
+193,Chevrolet,Blazer,1997,Turquoise
+194,Lexus,LS,2001,Khaki
+195,Ford,Tempo,1985,Pink
+196,Chevrolet,Venture,2001,Crimson
+197,GMC,Vandura 2500,1992,Purple
+198,Honda,Prelude,1985,Aquamarine
+199,Dodge,D250,1993,Goldenrod
+200,Ford,Thunderbird,1986,Purple
+201,Kia,Sportage,1999,Puce
+202,GMC,Sierra,2012,Yellow
+203,Cadillac,SRX,2012,Pink
+204,Subaru,Baja,2006,Indigo
+205,GMC,3500,1998,Blue
+206,Honda,del Sol,1996,Orange
+207,GMC,3500 Club Coupe,1998,Red
+208,Cadillac,SRX,2005,Blue
+209,Ford,Thunderbird,1994,Turquoise
+210,Lamborghini,Diablo,1991,Mauv
+211,Volkswagen,rio,2002,Maroon
+212,Eagle,Talon,1994,Goldenrod
+213,Subaru,Legacy,1992,Pink
+214,Ford,Mustang,2013,Green
+215,Kia,Forte,2011,Pink
+216,Lincoln,MKZ,2012,Puce
+217,Hyundai,Veloster,2013,Teal
+218,Ford,Econoline E150,1995,Aquamarine
+219,Subaru,Legacy,2002,Blue
+220,Audi,A6,1998,Pink
+221,Pontiac,Aztek,2004,Purple
+222,Mitsubishi,Chariot,1996,Yellow
+223,Mazda,Mazda6,2006,Red
+224,Ford,F-Series,2011,Puce
+225,BMW,8 Series,1995,Fuscia
+226,Infiniti,FX,2008,Pink
+227,Chevrolet,Express 3500,2002,Crimson
+228,Chevrolet,Camaro,1980,Purple
+229,Dodge,Charger,1999,Mauv
+230,Mercury,Sable,1998,Fuscia
+231,Cadillac,XLR-V,2006,Purple
+232,Audi,4000CS Quattro,1987,Yellow
+233,Acura,RL,1997,Goldenrod
+234,Pontiac,Bonneville,1968,Puce
+235,Lexus,GX,2007,Green
+236,Mercedes-Benz,SLR McLaren,2009,Orange
+237,Scion,xB,2006,Green
+238,Honda,Passport,2002,Turquoise
+239,Chevrolet,Silverado Hybrid,2006,Orange
+240,Audi,S6,2010,Purple
+241,Volkswagen,Eurovan,1997,Goldenrod
+242,Jaguar,XJ Series,1998,Green
+243,Chrysler,300,2010,Turquoise
+244,Kia,Sephia,1996,Purple
+245,Hyundai,Santa Fe,2007,Khaki
+246,Mercury,Monterey,2007,Teal
+247,Cadillac,STS,2005,Puce
+248,Volvo,S80,2004,Fuscia
+249,Volkswagen,Touareg,2010,Red
+250,Volkswagen,Jetta III,1995,Teal
+251,Pontiac,Sunbird,1994,Indigo
+252,Aston Martin,DBS,2012,Goldenrod
+253,Saab,9-3,1999,Puce
+254,Spyker,C8 Spyder,2004,Goldenrod
+255,Ford,F250,2011,Orange
+256,Audi,A3,2006,Crimson
+257,BMW,X6,2012,Aquamarine
+258,Hummer,H3T,2009,Green
+259,Smart,Fortwo,2011,Fuscia
+260,Land Rover,Defender 90,1994,Turquoise
+261,Mitsubishi,Galant,2001,Teal
+262,MINI,Cooper Clubman,2010,Pink
+263,Toyota,Tacoma,2001,Goldenrod
+264,MINI,Cooper,2005,Crimson
+265,Aston Martin,Rapide,2012,Aquamarine
+266,Toyota,Camry,2012,Yellow
+267,Ford,Escape,2012,Orange
+268,Nissan,Titan,2010,Fuscia
+269,Smart,Fortwo,2012,Blue
+270,Porsche,968,1992,Teal
+271,Toyota,Land Cruiser,2004,Fuscia
+272,Maserati,Quattroporte,1986,Puce
+273,Chevrolet,2500,1999,Red
+274,Saturn,VUE,2005,Yellow
+275,Honda,Insight,2012,Khaki
+276,Dodge,Ram 1500 Club,1998,Aquamarine
+277,BMW,Z4,2011,Mauv
+278,Dodge,Dynasty,1992,Blue
+279,BMW,X5 M,2010,Crimson
+280,Hyundai,Santa Fe,2001,Teal
+281,Mercedes-Benz,E-Class,2000,Red
+282,Cadillac,Escalade EXT,2006,Turquoise
+283,Ford,F250,2009,Orange
+284,Ford,Fusion,2011,Goldenrod
+285,Mercedes-Benz,CL-Class,2004,Indigo
+286,Plymouth,Roadrunner,1969,Aquamarine
+287,Chevrolet,Camaro,2000,Fuscia
+288,Chevrolet,Tahoe,2000,Blue
+289,Dodge,Ram 2500 Club,1997,Maroon
+290,Pontiac,Sunbird,1985,Khaki
+291,Nissan,JUKE,2011,Mauv
+292,Volkswagen,GTI,2003,Aquamarine
+293,Chrysler,PT Cruiser,2003,Blue
+294,Land Rover,LR4,2011,Goldenrod
+295,Mercedes-Benz,S-Class,1988,Khaki
+296,Audi,S8,2009,Indigo
+297,Buick,Special,1962,Aquamarine
+298,Subaru,Baja,2006,Orange
+299,Dodge,Charger,2010,Aquamarine
+300,Acura,RSX,2006,Blue
+301,GMC,Vandura 1500,1993,Orange
+302,Bentley,Continental,2005,Pink
+303,Lincoln,Navigator,2008,Mauv
+304,Nissan,Quest,2001,Red
+305,Buick,LeSabre,1996,Teal
+306,Cadillac,Allante,1993,Goldenrod
+307,Ford,Flex,2012,Indigo
+308,BMW,M3,2010,Mauv
+309,Lexus,LX,1996,Turquoise
+310,Volkswagen,GTI,1985,Goldenrod
+311,Lexus,IS F,2009,Orange
+312,Subaru,Forester,2005,Green
+313,Cadillac,STS,2007,Red
+314,Ford,Thunderbird,1986,Teal
+315,Mercedes-Benz,E-Class,2007,Yellow
+316,Nissan,Pathfinder,1995,Khaki
+317,Cadillac,Escalade,2009,Violet
+318,Chevrolet,Express 3500,2002,Violet
+319,GMC,Savana,2007,Puce
+320,Oldsmobile,Achieva,1998,Maroon
+321,Saturn,Ion,2006,Khaki
+322,Saab,9-3,1999,Indigo
+323,Ford,F350,1993,Yellow
+324,Saturn,L-Series,2003,Puce
+325,Mazda,B-Series,2008,Khaki
+326,Honda,Insight,2002,Maroon
+327,Smart,Fortwo,2012,Yellow
+328,Pontiac,Bonneville,1988,Orange
+329,Nissan,Pathfinder,2010,Red
+330,Ford,Club Wagon,1998,Blue
+331,Lexus,ES,1989,Crimson
+332,Buick,Park Avenue,1993,Aquamarine
+333,Ford,Flex,2012,Green
+334,Lotus,Evora,2011,Khaki
+335,Eagle,Summit,1996,Red
+336,Geo,Storm,1993,Teal
+337,Mercedes-Benz,E-Class,1991,Green
+338,Chevrolet,Caprice,1995,Yellow
+339,BMW,X6,2010,Crimson
+340,Toyota,4Runner,2001,Yellow
+341,Toyota,Previa,1991,Teal
+342,Chevrolet,Astro,1993,Orange
+343,Mazda,626,1989,Turquoise
+344,Ford,Mustang,1990,Turquoise
+345,Chevrolet,Suburban 1500,1996,Fuscia
+346,BMW,X6,2013,Crimson
+347,Suzuki,Swift,1999,Yellow
+348,Porsche,Boxster,2009,Blue
+349,Toyota,Land Cruiser,2000,Orange
+350,Mitsubishi,Mirage,1987,Aquamarine
+351,Ford,Mustang,1973,Crimson
+352,Mitsubishi,Cordia,1984,Crimson
+353,GMC,Envoy XL,2005,Goldenrod
+354,Chevrolet,Blazer,2005,Puce
+355,Buick,Regal,1999,Maroon
+356,Land Rover,Discovery,1994,Pink
+357,Volkswagen,Jetta,2001,Crimson
+358,Ford,Escort,1984,Turquoise
+359,Ram,1500,2011,Khaki
+360,Ford,Econoline E150,1998,Yellow
+361,BMW,X3,2005,Aquamarine
+362,Lotus,Evora,2011,Goldenrod
+363,Jeep,Grand Cherokee,1999,Crimson
+364,Dodge,Daytona,1984,Teal
+365,Mercedes-Benz,C-Class,2007,Blue
+366,Pontiac,Torrent,2009,Red
+367,Chevrolet,Express 3500,2007,Aquamarine
+368,BMW,5 Series,2012,Fuscia
+369,Buick,Skyhawk,1986,Mauv
+370,Infiniti,G,1996,Teal
+371,Ford,E250,2011,Orange
+372,BMW,3 Series,1994,Puce
+373,Toyota,Land Cruiser,1997,Indigo
+374,Subaru,Brat,1984,Turquoise
+375,Chevrolet,Impala,2001,Teal
+376,Audi,A8,2011,Purple
+377,Dodge,Ram 1500,1994,Indigo
+378,Ford,EXP,1986,Indigo
+379,Nissan,Altima,1996,Goldenrod
+380,Buick,Rendezvous,2005,Purple
+381,Pontiac,1000,1986,Aquamarine
+382,Toyota,Highlander,2005,Aquamarine
+383,Ford,Mustang,1973,Pink
+384,Chrysler,Cirrus,1997,Red
+385,Ford,Explorer,2003,Goldenrod
+386,Chevrolet,S10,2004,Red
+387,Mitsubishi,Eclipse,2012,Violet
+388,Toyota,Venza,2010,Blue
+389,Ford,Fusion,2007,Teal
+390,Mazda,B-Series,1986,Blue
+391,Mercedes-Benz,S-Class,2012,Maroon
+392,GMC,Safari,1997,Green
+393,Mercedes-Benz,C-Class,2000,Red
+394,Honda,Accord,2008,Khaki
+395,Mitsubishi,Starion,1984,Yellow
+396,Pontiac,LeMans,1968,Purple
+397,Mercedes-Benz,GL-Class,2012,Fuscia
+398,Toyota,MR2,2005,Green
+399,Cadillac,Escalade,2008,Red
+400,Oldsmobile,Silhouette,1992,Crimson
+401,Volvo,C70,2011,Orange
+402,Saab,9000,1994,Pink
+403,Suzuki,Samurai,1994,Khaki
+404,Volkswagen,Passat,2001,Maroon
+405,Infiniti,G,2012,Turquoise
+406,Mazda,Protege,1998,Khaki
+407,Chrysler,Concorde,1996,Teal
+408,GMC,3500,1992,Yellow
+409,Hyundai,Azera,2007,Turquoise
+410,Chevrolet,Impala SS,1995,Maroon
+411,Hyundai,Genesis Coupe,2010,Purple
+412,Bentley,Continental Flying Spur,2006,Blue
+413,BMW,7 Series,2008,Orange
+414,Nissan,Quest,2005,Purple
+415,Dodge,Intrepid,2002,Teal
+416,Chevrolet,Express 3500,2006,Goldenrod
+417,Chevrolet,S10,2002,Purple
+418,Nissan,Murano,2012,Violet
+419,Porsche,Cayman,2009,Purple
+420,Honda,Insight,2000,Khaki
+421,Mercury,Montego,2005,Orange
+422,Honda,Accord,1985,Indigo
+423,Mercedes-Benz,W201,1986,Yellow
+424,Ford,Mustang,1985,Red
+425,Plymouth,Grand Voyager,1994,Purple
+426,Mitsubishi,Cordia,1987,Blue
+427,Saab,9-5,2002,Fuscia
+428,Chrysler,LHS,1996,Purple
+429,Ford,Focus,2008,Mauv
+430,Kia,Amanti,2005,Fuscia
+431,Mercedes-Benz,G-Class,2009,Khaki
+432,Toyota,Celica,2000,Orange
+433,Toyota,4Runner,1998,Khaki
+434,Pontiac,Grand Am,2002,Aquamarine
+435,Volvo,960,1995,Red
+436,Mazda,MX-6,1990,Purple
+437,Volkswagen,New Beetle,1998,Puce
+438,Hyundai,Azera,2009,Aquamarine
+439,Mercury,Sable,2004,Khaki
+440,Saturn,Ion,2004,Blue
+441,Mitsubishi,Lancer Evolution,2005,Blue
+442,Acura,Integra,1995,Indigo
+443,Ford,Mustang,1965,Mauv
+444,Honda,Civic,2001,Maroon
+445,Hyundai,Accent,2008,Fuscia
+446,Ford,Windstar,2000,Turquoise
+447,Dodge,Ram Van 2500,1996,Maroon
+448,Subaru,Forester,2007,Turquoise
+449,Dodge,Ram 3500,2008,Yellow
+450,Maybach,62,2010,Purple
+451,Honda,Accord Crosstour,2011,Turquoise
+452,Dodge,Ram Van B150,1993,Violet
+453,Dodge,Viper,2004,Purple
+454,Chevrolet,Monte Carlo,2001,Turquoise
+455,Toyota,Celica,2001,Green
+456,Honda,S2000,2005,Turquoise
+457,Chevrolet,HHR,2008,Blue
+458,Volvo,S40,2001,Khaki
+459,BMW,530,2001,Red
+460,Chrysler,300,2012,Pink
+461,GMC,Savana 2500,2005,Aquamarine
+462,Mercury,Tracer,1998,Maroon
+463,Infiniti,EX,2012,Turquoise
+464,Honda,Civic,2006,Orange
+465,Lexus,RX Hybrid,2010,Orange
+466,Lincoln,Navigator L,2012,Blue
+467,Bentley,Continental,2009,Mauv
+468,Infiniti,M,2011,Aquamarine
+469,Mercury,Cougar,1989,Orange
+470,Honda,FCX Clarity,2012,Mauv
+471,Toyota,Avalon,1996,Blue
+472,Volvo,S80,2004,Fuscia
+473,Toyota,Paseo,1997,Khaki
+474,Chrysler,LHS,2000,Green
+475,Chevrolet,Malibu,2009,Goldenrod
+476,Lexus,SC,1992,Indigo
+477,Volkswagen,Cabriolet,1996,Yellow
+478,Geo,Prizm,1993,Pink
+479,Toyota,Tundra,2005,Mauv
+480,Hummer,H2,2006,Maroon
+481,Subaru,Outback,2008,Aquamarine
+482,Pontiac,Montana,2003,Pink
+483,Lexus,IS,2010,Crimson
+484,Chevrolet,Camaro,1974,Maroon
+485,Hyundai,Equus,2011,Maroon
+486,Maybach,57,2012,Blue
+487,Toyota,Sienna,1998,Goldenrod
+488,Mitsubishi,Mirage,1996,Aquamarine
+489,Pontiac,Solstice,2006,Indigo
+490,Bentley,Continental Flying Spur,2011,Orange
+491,Chrysler,Voyager,2002,Purple
+492,Dodge,Ram Wagon B150,1992,Violet
+493,Kia,Sportage,2000,Red
+494,Bentley,Continental GTC,2012,Aquamarine
+495,Volkswagen,Golf,1992,Maroon
+496,Mitsubishi,Precis,1990,Maroon
+497,Lotus,Exige,2004,Crimson
+498,Mazda,Millenia,1995,Yellow
+499,Honda,Civic,2006,Red
+500,Chevrolet,1500,1996,Yellow
+501,Dodge,Intrepid,2000,Pink
+502,Dodge,Grand Caravan,1994,Mauv
+503,Mercedes-Benz,G55 AMG,2006,Khaki
+504,Ford,Econoline E250,1996,Orange
+505,Honda,Accord,1998,Green
+506,Ford,F-Series,1996,Turquoise
+507,Buick,LeSabre,1986,Pink
+508,Mitsubishi,Pajero,1986,Blue
+509,Dodge,Ram 2500 Club,1998,Khaki
+510,Nissan,240SX,1995,Mauv
+511,Chevrolet,Tahoe,2002,Maroon
+512,Ford,Mustang,1992,Maroon
+513,Mercedes-Benz,300CE,1992,Mauv
+514,Lincoln,Continental,1997,Fuscia
+515,BMW,X5,2007,Purple
+516,Lincoln,Mark VIII,1994,Aquamarine
+517,Mitsubishi,Galant,2002,Purple
+518,Chevrolet,Metro,1998,Puce
+519,Ford,Focus ST,2013,Orange
+520,Chrysler,300,2012,Turquoise
+521,Infiniti,Q,2003,Teal
+522,GMC,Savana 3500,2011,Teal
+523,Ford,Ranger,1999,Violet
+524,GMC,2500 Club Coupe,1992,Fuscia
+525,Chevrolet,Corvette,1986,Aquamarine
+526,Volkswagen,Touareg,2012,Blue
+527,GMC,Yukon,2001,Blue
+528,Ford,Taurus,1999,Pink
+529,Honda,del Sol,1993,Maroon
+530,Suzuki,Daewoo Magnus,2004,Puce
+531,BMW,5 Series,2010,Turquoise
+532,Mitsubishi,Mirage,1990,Goldenrod
+533,Bentley,Continental,2007,Indigo
+534,GMC,2500,1996,Purple
+535,Pontiac,Firebird,1969,Crimson
+536,Hyundai,Elantra,2007,Khaki
+537,BMW,530,2002,Mauv
+538,Pontiac,G5,2008,Maroon
+539,Dodge,Viper,2010,Yellow
+540,Pontiac,Bonneville,1994,Goldenrod
+541,Audi,TT,2010,Fuscia
+542,Saturn,VUE,2005,Turquoise
+543,Porsche,924 S,1987,Pink
+544,Acura,TL,2008,Purple
+545,Toyota,Sienna,1999,Maroon
+546,Nissan,Pathfinder,2008,Violet
+547,Volvo,XC90,2005,Blue
+548,Mercedes-Benz,CL-Class,2003,Goldenrod
+549,Buick,LeSabre,2004,Orange
+550,Mazda,Tribute,2004,Fuscia
+551,Oldsmobile,Silhouette,2001,Red
+552,Volkswagen,Golf,1976,Fuscia
+553,BMW,325,2005,Teal
+554,Audi,S8,2002,Green
+555,Ford,Mustang,1987,Blue
+556,Mercury,Grand Marquis,1984,Puce
+557,Mazda,B-Series Plus,1998,Puce
+558,Toyota,Highlander,2003,Orange
+559,Porsche,Boxster,2010,Aquamarine
+560,Buick,Regal,1999,Purple
+561,Mitsubishi,L300,1990,Pink
+562,GMC,Yukon,1997,Purple
+563,Lincoln,Continental Mark VII,1989,Violet
+564,Dodge,Caravan,1996,Indigo
+565,Toyota,Land Cruiser,2000,Violet
+566,Pontiac,Grand Prix,2008,Goldenrod
+567,Honda,Passport,1999,Purple
+568,Volvo,V70,1998,Khaki
+569,Jaguar,X-Type,2003,Puce
+570,Ford,Mustang,2000,Purple
+571,Oldsmobile,Achieva,1998,Teal
+572,Pontiac,Tempest,1967,Mauv
+573,GMC,Canyon,2009,Crimson
+574,Cadillac,Escalade EXT,2012,Green
+575,Nissan,Xterra,2009,Mauv
+576,Land Rover,Range Rover,2007,Orange
+577,GMC,Savana 2500,2008,Mauv
+578,Buick,Roadmaster,1993,Blue
+579,Nissan,Sentra,1998,Indigo
+580,Toyota,TundraMax,2009,Goldenrod
+581,Mitsubishi,GTO,1998,Red
+582,Ford,Focus,2008,Yellow
+583,Volkswagen,R32,2009,Orange
+584,Nissan,Maxima,2000,Khaki
+585,Hummer,H2,2005,Khaki
+586,Chevrolet,Camaro,1992,Turquoise
+587,Volkswagen,rio,2002,Purple
+588,Mercury,Cougar,1984,Crimson
+589,Honda,Civic Si,2006,Aquamarine
+590,Ford,Fusion,2008,Crimson
+591,Scion,xB,2012,Blue
+592,Ford,Ranger,1998,Crimson
+593,Audi,5000CS,1988,Crimson
+594,Audi,riolet,1997,Teal
+595,Land Rover,LR4,2011,Violet
+596,Peugeot,207,2007,Orange
+597,GMC,Rally Wagon 2500,1993,Orange
+598,Toyota,Sienna,1998,Fuscia
+599,Lexus,LS,1992,Turquoise
+600,Dodge,Viper RT/10,1994,Maroon
+601,Nissan,Sentra,2000,Mauv
+602,Toyota,Sienna,2007,Pink
+603,Toyota,Sienna,1998,Green
+604,Infiniti,G37,2008,Violet
+605,Nissan,Altima,2005,Pink
+606,Dodge,Ram,1994,Turquoise
+607,Pontiac,Turbo Firefly,1988,Teal
+608,Suzuki,Reno,2008,Teal
+609,Chrysler,Concorde,1996,Puce
+610,Suzuki,Swift,2001,Green
+611,Mitsubishi,Chariot,1991,Orange
+612,GMC,Yukon XL 1500,2011,Khaki
+613,Volkswagen,Passat,1992,Khaki
+614,Toyota,Camry Hybrid,2012,Maroon
+615,Saab,9-3,2007,Puce
+616,Subaru,Forester,1998,Khaki
+617,Pontiac,Grand Am,1996,Blue
+618,Mitsubishi,Mirage,1984,Teal
+619,Lexus,RX,1999,Teal
+620,Ford,Escort,2001,Khaki
+621,Mercedes-Benz,E-Class,1992,Fuscia
+622,Ford,Mustang,1990,Yellow
+623,Dodge,Durango,2002,Puce
+624,Chevrolet,Corvette,1973,Violet
+625,Acura,NSX,1998,Khaki
+626,Nissan,Maxima,1992,Teal
+627,Mitsubishi,Galant,2005,Pink
+628,Chevrolet,Camaro,2010,Violet
+629,Oldsmobile,Silhouette,2001,Violet
+630,Honda,Fit,2010,Crimson
+631,GMC,Sierra 1500,2004,Fuscia
+632,Mazda,B-Series,1990,Aquamarine
+633,GMC,EV1,1999,Goldenrod
+634,BMW,530,2007,Blue
+635,Lamborghini,Diablo,1995,Indigo
+636,Mercury,Mountaineer,2005,Khaki
+637,Ford,Explorer,2006,Purple
+638,Dodge,Ram 2500,2005,Puce
+639,Pontiac,Trans Sport,1997,Khaki
+640,Honda,Civic GX,2003,Red
+641,Audi,S5,2010,Crimson
+642,Volvo,S80,2012,Goldenrod
+643,Honda,CR-V,1999,Teal
+644,Chevrolet,Blazer,2001,Mauv
+645,BMW,745,2002,Teal
+646,Toyota,Matrix,2005,Aquamarine
+647,Mitsubishi,Eclipse,2004,Fuscia
+648,Chevrolet,Impala SS,1994,Orange
+649,Ford,F350,2012,Red
+650,Ford,Taurus,2010,Khaki
+651,Chevrolet,Express 1500,2009,Crimson
+652,Pontiac,Sunbird,1992,Turquoise
+653,Pontiac,Grand Prix,1983,Blue
+654,Volkswagen,riolet,1993,Goldenrod
+655,Plymouth,Sundance,1994,Purple
+656,Ford,F450,2010,Violet
+657,Pontiac,Parisienne,1986,Maroon
+658,Chevrolet,Uplander,2007,Fuscia
+659,Cadillac,CTS,2006,Green
+660,Suzuki,Grand Vitara,2000,Fuscia
+661,Toyota,Tacoma,1996,Red
+662,Audi,S4,1992,Green
+663,Mercedes-Benz,W201,1991,Purple
+664,Mercedes-Benz,M-Class,2000,Crimson
+665,GMC,Envoy,2006,Violet
+666,Buick,Rendezvous,2002,Blue
+667,Ford,Crown Victoria,1999,Mauv
+668,Buick,Riviera,1995,Yellow
+669,Isuzu,i-290,2007,Turquoise
+670,Toyota,Tundra,2010,Crimson
+671,GMC,Suburban 1500,1999,Aquamarine
+672,GMC,Yukon,2007,Indigo
+673,Toyota,Xtra,1995,Mauv
+674,Dodge,Dakota Club,1996,Goldenrod
+675,Ford,Excursion,2005,Teal
+676,Buick,Park Avenue,1996,Puce
+677,Volkswagen,Jetta,1985,Turquoise
+678,Audi,Cabriolet,1997,Khaki
+679,Subaru,Legacy,1997,Red
+680,Saturn,L-Series,2004,Orange
+681,Ford,Econoline E250,1995,Goldenrod
+682,GMC,Yukon,1996,Violet
+683,Rolls-Royce,Phantom,2007,Blue
+684,Ford,Crown Victoria,2000,Indigo
+685,Toyota,Highlander,2001,Pink
+686,Chevrolet,Silverado 2500,2012,Pink
+687,Oldsmobile,88,1998,Blue
+688,Chevrolet,Beretta,1993,Puce
+689,Mercedes-Benz,SL-Class,2001,Goldenrod
+690,Suzuki,SX4,2007,Teal
+691,Tesla,Roadster,2012,Purple
+692,Mazda,MX-5,1999,Blue
+693,Dodge,Ram 50,1992,Yellow
+694,Mercedes-Benz,CLS-Class,2010,Fuscia
+695,Mazda,Tribute,2011,Aquamarine
+696,Volkswagen,Scirocco,1986,Maroon
+697,Buick,Electra,1990,Red
+698,Chevrolet,Tahoe,2004,Khaki
+699,Audi,S6,2011,Crimson
+700,Chevrolet,Traverse,2010,Maroon
+701,Audi,A8,2004,Turquoise
+702,Lotus,Elan,1992,Indigo
+703,Spyker,C8 Double 12 S,2006,Mauv
+704,Dodge,Ram 2500,2005,Fuscia
+705,Ford,E-Series,2012,Pink
+706,Land Rover,Range Rover Sport,2009,Goldenrod
+707,Jeep,Commander,2006,Maroon
+708,Honda,del Sol,1993,Aquamarine
+709,Chevrolet,Tahoe,2009,Violet
+710,Maserati,Coupe,2006,Aquamarine
+711,Chevrolet,Corvette,2005,Teal
+712,Chevrolet,Camaro,1997,Green
+713,Ford,F-Series Super Duty,2007,Teal
+714,Pontiac,Sunbird,1990,Aquamarine
+715,Ford,Fairlane,1965,Violet
+716,Maserati,228,1989,Crimson
+717,Dodge,Nitro,2008,Orange
+718,Honda,Civic Si,2003,Green
+719,Ford,Windstar,1998,Aquamarine
+720,Dodge,Grand Caravan,1994,Fuscia
+721,Chevrolet,Venture,2004,Khaki
+722,Toyota,MR2,1994,Turquoise
+723,Lexus,LS,1999,Indigo
+724,Pontiac,Solstice,2008,Goldenrod
+725,GMC,Sonoma Club Coupe,1994,Crimson
+726,Dodge,Dakota Club,1999,Fuscia
+727,Pontiac,Firebird,2001,Teal
+728,Scion,xD,2008,Yellow
+729,Nissan,NV1500,2012,Fuscia
+730,Nissan,200SX,1995,Green
+731,Cadillac,Sixty Special,1993,Crimson
+732,GMC,Yukon XL 1500,2008,Khaki
+733,Land Rover,Range Rover,1990,Aquamarine
+734,Buick,Lucerne,2006,Goldenrod
+735,GMC,Savana 3500,2011,Purple
+736,Isuzu,Hombre,1999,Fuscia
+737,Pontiac,GTO,2005,Green
+738,Mazda,Navajo,1991,Aquamarine
+739,Volkswagen,GTI,1999,Goldenrod
+740,Ford,Aerostar,1990,Turquoise
+741,Chevrolet,Corvette,1987,Blue
+742,Buick,Park Avenue,2000,Puce
+743,Chevrolet,Aveo,2008,Blue
+744,GMC,Savana,2008,Yellow
+745,Pontiac,Grand Prix,1984,Green
+746,Pontiac,Grand Prix,1998,Turquoise
+747,Dodge,D350 Club,1993,Mauv
+748,Chevrolet,Colorado,2004,Pink
+749,BMW,M5,2010,Orange
+750,Chevrolet,Uplander,2007,Aquamarine
+751,Ford,E150,2009,Blue
+752,Pontiac,Firebird,1997,Puce
+753,Land Rover,Freelander,2005,Indigo
+754,Toyota,Tundra,2001,Crimson
+755,Kia,Sephia,1998,Violet
+756,Chevrolet,Suburban 2500,2004,Red
+757,Jeep,Liberty,2004,Red
+758,Buick,Regal,1993,Blue
+759,Subaru,Legacy,2012,Yellow
+760,Aston Martin,V8 Vantage S,2012,Mauv
+761,Toyota,4Runner,1999,Purple
+762,Mitsubishi,Chariot,1987,Yellow
+763,Honda,Insight,2006,Pink
+764,Toyota,Land Cruiser,2009,Goldenrod
+765,Chevrolet,Impala,2010,Khaki
+766,Ford,Mustang,1972,Red
+767,Mazda,MPV,2003,Indigo
+768,Chevrolet,Suburban 2500,2007,Turquoise
+769,Nissan,Cube,2012,Fuscia
+770,Nissan,240SX,1996,Maroon
+771,Lamborghini,Diablo,2001,Indigo
+772,Scion,tC,2005,Green
+773,Dodge,D350,1992,Blue
+774,Volkswagen,Golf,1987,Purple
+775,Chrysler,Crossfire,2005,Yellow
+776,BMW,X5,2000,Orange
+777,Mitsubishi,Mirage,1984,Orange
+778,Audi,100,1990,Yellow
+779,Cadillac,DeVille,2004,Purple
+780,Ferrari,458 Italia,2011,Crimson
+781,Audi,5000S,1985,Maroon
+782,Toyota,MR2,1994,Crimson
+783,MINI,Cooper Clubman,2011,Aquamarine
+784,Mercury,Mystique,1997,Pink
+785,Infiniti,I,1999,Blue
+786,Mercedes-Benz,CL-Class,2010,Goldenrod
+787,Mercedes-Benz,SLS-Class,2011,Turquoise
+788,Volvo,960,1996,Teal
+789,Lincoln,Navigator L,2008,Goldenrod
+790,Ferrari,California,2010,Blue
+791,Pontiac,6000,1990,Orange
+792,Subaru,Tribeca,2008,Crimson
+793,Mercedes-Benz,S-Class,1999,Red
+794,Dodge,Stratus,1999,Fuscia
+795,Mercury,Villager,1995,Yellow
+796,Ford,Thunderbird,1984,Maroon
+797,Land Rover,Discovery,1999,Teal
+798,Buick,Park Avenue,2005,Crimson
+799,Chevrolet,G-Series 3500,1997,Teal
+800,Chrysler,Concorde,2003,Blue
+801,Nissan,Armada,2012,Aquamarine
+802,Acura,MDX,2004,Green
+803,Mazda,Mazda3,2007,Purple
+804,Suzuki,Grand Vitara,2005,Green
+805,Ford,Mustang,1968,Violet
+806,Porsche,Panamera,2011,Teal
+807,Mazda,RX-7,1995,Khaki
+808,Dodge,Dakota,2002,Yellow
+809,Acura,Legend,1995,Aquamarine
+810,Nissan,240SX,1993,Goldenrod
+811,Chevrolet,Camaro,1971,Maroon
+812,Volvo,S40,2004,Orange
+813,Nissan,300ZX,1996,Puce
+814,Dodge,Dakota Club,2004,Blue
+815,Infiniti,M,1992,Violet
+816,Geo,Prizm,1996,Yellow
+817,Chevrolet,G-Series G10,1993,Maroon
+818,Mitsubishi,Chariot,1993,Green
+819,Porsche,Cayenne,2004,Teal
+820,Lincoln,Town Car,2004,Red
+821,Toyota,FJ Cruiser,2012,Yellow
+822,Acura,CL,2003,Yellow
+823,Infiniti,QX56,2008,Fuscia
+824,Cadillac,DeVille,1994,Yellow
+825,Chevrolet,Malibu,2003,Crimson
+826,Chevrolet,Caprice,1996,Red
+827,Mercury,Sable,2009,Puce
+828,GMC,Sierra 3500,2006,Mauv
+829,Nissan,Xterra,2008,Khaki
+830,Pontiac,Bonneville,1966,Pink
+831,Saab,9-2X,2006,Maroon
+832,Chevrolet,Volt,2012,Maroon
+833,Pontiac,Grand Prix,2000,Purple
+834,Buick,Riviera,1991,Violet
+835,Isuzu,Trooper,1996,Fuscia
+836,Hummer,H2,2004,Fuscia
+837,Ford,Laser,1985,Khaki
+838,Ford,Bronco,1985,Fuscia
+839,Ford,Bronco,1994,Fuscia
+840,Toyota,Solara,2003,Blue
+841,Lincoln,Zephyr,2006,Mauv
+842,Lamborghini,Gallardo,2003,Fuscia
+843,Dodge,Ram Van 3500,2001,Fuscia
+844,Nissan,Quest,2005,Turquoise
+845,Ford,Aerostar,1993,Aquamarine
+846,Ford,F350,2004,Orange
+847,Jaguar,XJ Series,1997,Turquoise
+848,Mitsubishi,Chariot,1989,Yellow
+849,Land Rover,Discovery,2010,Maroon
+850,Ford,E-Series,2001,Turquoise
+851,Mercury,Sable,2009,Pink
+852,Audi,80,1992,Fuscia
+853,Porsche,Cayman,2007,Red
+854,Land Rover,Freelander,2003,Khaki
+855,BMW,M3,2002,Goldenrod
+856,Land Rover,Discovery,1998,Fuscia
+857,Mazda,Familia,1988,Indigo
+858,Lexus,RX,2001,Blue
+859,Bentley,Continental GTC,2008,Purple
+860,Chevrolet,G-Series 2500,1998,Goldenrod
+861,Nissan,Sentra,2007,Blue
+862,Ferrari,F430 Spider,2006,Indigo
+863,GMC,Savana 2500,2009,Maroon
+864,Audi,A6,2004,Maroon
+865,Nissan,GT-R,2013,Mauv
+866,Lincoln,Continental,2002,Blue
+867,GMC,Envoy,2006,Aquamarine
+868,Kia,Rondo,2010,Goldenrod
+869,Pontiac,Firebird,1997,Mauv
+870,Oldsmobile,Alero,2002,Orange
+871,GMC,2500,1996,Red
+872,Acura,Vigor,1994,Aquamarine
+873,Lotus,Esprit,1989,Yellow
+874,Toyota,Land Cruiser,2004,Yellow
+875,Chevrolet,Venture,2003,Maroon
+876,Hummer,H3,2009,Purple
+877,Chevrolet,Tahoe,2008,Purple
+878,Lotus,Exige,2010,Goldenrod
+879,Pontiac,Torrent,2007,Khaki
+880,Chevrolet,Astro,1995,Puce
+881,Volvo,S40,2002,Puce
+882,Toyota,Tundra,2009,Purple
+883,Chrysler,300M,2004,Indigo
+884,Suzuki,Forenza,2007,Turquoise
+885,Toyota,Tacoma Xtra,1999,Goldenrod
+886,Mazda,B-Series,1996,Aquamarine
+887,Dodge,Dakota Club,2000,Teal
+888,Audi,A8,2012,Violet
+889,Suzuki,Aerio,2004,Purple
+890,Pontiac,6000,1985,Orange
+891,Mercury,Villager,1996,Pink
+892,Ford,Ranger,2010,Pink
+893,Toyota,Sienna,2003,Puce
+894,Mazda,MX-6,1992,Indigo
+895,Scion,xA,2006,Khaki
+896,Mercedes-Benz,300SL,1992,Teal
+897,Toyota,Avalon,1999,Blue
+898,Porsche,911,1995,Orange
+899,Nissan,Maxima,2010,Khaki
+900,Ford,Explorer,1993,Yellow
+901,Hyundai,Santa Fe,2007,Crimson
+902,Ford,Thunderbird,1986,Indigo
+903,Toyota,Matrix,2007,Indigo
+904,Porsche,944,1990,Fuscia
+905,Acura,TL,2008,Mauv
+906,Ford,E-Series,2009,Goldenrod
+907,Chrysler,Sebring,1999,Pink
+908,Eagle,Summit,1992,Purple
+909,Hummer,H1,2006,Green
+910,Ford,Aerostar,1994,Goldenrod
+911,Chrysler,Pacifica,2007,Khaki
+912,Chevrolet,Suburban 1500,1994,Aquamarine
+913,Volvo,XC90,2012,Orange
+914,Volkswagen,Fox,1993,Purple
+915,Toyota,Avalon,2006,Yellow
+916,Ford,Mustang,1983,Blue
+917,Ford,E-Series,2004,Orange
+918,Volkswagen,GTI,1999,Puce
+919,Kia,Spectra,2008,Purple
+920,Mitsubishi,Montero,2000,Khaki
+921,Nissan,Xterra,2005,Orange
+922,Dodge,Intrepid,2004,Pink
+923,Toyota,Tacoma,1996,Crimson
+924,Mitsubishi,Eclipse,1993,Red
+925,Nissan,Maxima,1994,Yellow
+926,Volkswagen,GTI,1990,Blue
+927,Eagle,Talon,1994,Indigo
+928,GMC,Sierra 1500,2006,Yellow
+929,Chevrolet,Cavalier,2005,Red
+930,Acura,Legend,1992,Khaki
+931,Nissan,Cube,2012,Violet
+932,Lotus,Esprit,1998,Maroon
+933,Jeep,Wrangler,2000,Goldenrod
+934,Ford,Mustang,1999,Goldenrod
+935,Pontiac,Grand Prix,1974,Maroon
+936,Saturn,Relay,2006,Pink
+937,Mercury,Milan,2011,Orange
+938,Volkswagen,Jetta,2009,Purple
+939,Mercedes-Benz,SL-Class,2001,Maroon
+940,Chevrolet,G-Series G20,1993,Teal
+941,Kia,Sportage,2011,Maroon
+942,Toyota,Celica,2004,Purple
+943,Toyota,Celica,2003,Teal
+944,Acura,Integra,1993,Blue
+945,Suzuki,Swift,2004,Pink
+946,Lexus,IS,2001,Purple
+947,Kia,Rio,2008,Fuscia
+948,Land Rover,Freelander,2003,Fuscia
+949,Nissan,Sentra,2000,Red
+950,Pontiac,Parisienne,1984,Indigo
+951,Pontiac,GTO,2006,Maroon
+952,GMC,Yukon XL 1500,2008,Red
+953,Chevrolet,Cavalier,2001,Puce
+954,Mitsubishi,GTO,1995,Maroon
+955,Nissan,240SX,1993,Orange
+956,Ford,Explorer,1999,Green
+957,Buick,Rendezvous,2005,Crimson
+958,Mazda,Mazda3,2008,Turquoise
+959,Oldsmobile,88,1994,Orange
+960,Mitsubishi,Truck,1990,Maroon
+961,Ford,Aspire,1994,Green
+962,Toyota,Tacoma,2006,Green
+963,Mitsubishi,Lancer,2006,Blue
+964,Mitsubishi,Eclipse,1995,Indigo
+965,Lexus,LS,2004,Teal
+966,Nissan,Altima,1997,Maroon
+967,GMC,1500 Club Coupe,1995,Crimson
+968,Kia,Sportage,2002,Violet
+969,Mazda,323,1992,Green
+970,Saturn,Astra,2008,Violet
+971,Aston Martin,V8 Vantage,2012,Green
+972,Honda,Civic,1996,Green
+973,Toyota,MR2,2002,Yellow
+974,Buick,Reatta,1991,Violet
+975,Cadillac,STS-V,2006,Indigo
+976,Hyundai,Accent,2011,Orange
+977,Ford,Mustang,2012,Blue
+978,Lotus,Elise,2009,Pink
+979,Mazda,MPV,1996,Puce
+980,Mercury,Sable,1998,Fuscia
+981,Volvo,V70,1999,Violet
+982,Mercury,Capri,1994,Indigo
+983,Ford,F350,1994,Teal
+984,Chevrolet,Silverado 2500,2011,Red
+985,Dodge,Caliber,2009,Teal
+986,Ford,Mustang,1971,Purple
+987,Pontiac,Solstice,2009,Khaki
+988,Infiniti,G,2004,Orange
+989,Hummer,H3T,2009,Teal
+990,Chevrolet,Silverado 2500,2005,Indigo
+991,Ford,Expedition,1998,Maroon
+992,Cadillac,Escalade EXT,2002,Crimson
+993,Plymouth,Laser,1991,Green
+994,Toyota,Tundra,2006,Violet
+995,Toyota,4Runner,1995,Pink
+996,Ford,Mustang,1989,Fuscia
+997,Jeep,Grand Cherokee,2008,Violet
+998,Pontiac,Torrent,2009,Mauv
+999,Toyota,Solara,2000,Teal
+1000,Daihatsu,Rocky,1992,Indigo
