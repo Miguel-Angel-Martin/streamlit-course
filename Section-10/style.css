@@ -1,0 +1,40 @@
+.st-key-success button {
+  background-color: #2d9e47;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.st-key-info button {
+  background-color: #332d9e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.st-key-info button:hover {
+  background-color: #100f32;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.stTextInput {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 0px solid whitesmoke;
+  border-radius: 4px;
+}
+.stSidebar {
+  background-color: #2d2d2d;
+  padding: 20px;
+  color: whitesmoke;
+  border-right: 1px solid #ddd;
+}
