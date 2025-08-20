@@ -1,9 +1,9 @@
 import streamlit as st
 
-def custom_card(title, content, footer):
-    card_style = """    
+def custom_card(title, content, footer, color):
+    card_style = f"""    
         <style>
-        body {
+        body {{
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         background-color: #f0f2f5;
         display: flex;
@@ -11,47 +11,47 @@ def custom_card(title, content, footer):
         align-items: center;
         height: 100vh;
         margin: 0;
-        }
+        }}
 
-        .card {
-        background-color: #ffffff;
+        .card {{
+        background-color: {color};
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         overflow: hidden; /* Ensures child elements respect the border-radius */
         width: 350px;
         transition: box-shadow 0.3s ease-in-out;
-        }
+        }}
 
-        .card:hover {
+        .card:hover {{
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        }
+        }}
 
-        .card-header {
+        .card-header {{
         padding: 20px;
         background-color: #f7f7f7;
         border-bottom: 1px solid #e0e0e0;
-        }
+        }}
 
-        .card-header h2 {
+        .card-header h2 {{
         margin: 0;
         font-size: 1.5em;
         color: #333;
-        }
+        }}
 
-        .card-body {
+        .card-body {{
         padding: 20px;
         color: #555;
         line-height: 1.6;
-        }
+        }}
 
-        .card-footer {
+        .card-footer {{
         padding: 20px;
         background-color: #f7f7f7;
         border-top: 1px solid #e0e0e0;
         text-align: right;
-        }
+        }}
 
-        .card-footer button {
+        .card-footer button {{
         background-color: #007bff;
         color: white;
         border: none;
@@ -60,11 +60,11 @@ def custom_card(title, content, footer):
         cursor: pointer;
         font-size: 1em;
         transition: background-color 0.2s ease;
-        }
+        }}
 
-        .card-footer button:hover {
+        .card-footer button:hover {{
         background-color: #0056b3;
-        }
+        }}
     </style>
 
     """

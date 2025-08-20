@@ -14,4 +14,8 @@ source str-dev/bin/activate
 
 ## Streamlit
 
-streamlit run text.py --server.port 5000                                       
+streamlit run text.py --server.port 5000      
+
+## Uv to install packges
+uv add streamlit-extras
+                             
