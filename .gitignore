@@ -5,3 +5,4 @@ __pycache__/
 .venv/
 str-dev
 
+Section-11/.streamlit/secrets.toml
