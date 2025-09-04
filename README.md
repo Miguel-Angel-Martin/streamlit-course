@@ -18,4 +18,5 @@ streamlit run text.py --server.port 5000
 
 ## Uv to install packges
 uv add streamlit-extras
-                             
+uv pip install streamlit-aggrid
+uv pip sync pyproject.toml                             

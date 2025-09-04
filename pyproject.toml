@@ -5,6 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "blinker>=1.9.0",
+    "faker>=37.5.3",
+    "pandas>=2.3.0",
+    "plotly>=6.3.0",
+    "python-dotenv>=1.1.1",
     "streamlit>=1.45.1",
+    "streamlit-aggrid>=1.1.8.post1",
+    "streamlit-chat>=0.1.1",
     "streamlit-extras>=0.7.6",
 ]
