@@ -6,3 +6,5 @@ __pycache__/
 str-dev
 
 Section-11/.streamlit/secrets.toml
+Section-15/database/*
+!Section-15/database/.gitkeep

@@ -1,0 +1,2 @@
+GRANT ALL PRIVILEGES ON customers.* TO 'user'@'%';
+FLUSH PRIVILEGES;
