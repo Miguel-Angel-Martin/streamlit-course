@@ -83,7 +83,6 @@ class DBManager:
                 conn.commit()
             cursor.close()
 
-    #@st.cache_data #TODO: add cache when run
     def fetch_customers(self):
         """Devuelve un DataFrame con los datos de la tabla customer."""
         with self.connect() as conn:
@@ -94,6 +93,32 @@ class DBManager:
                 df = pd.DataFrame()
             return df
 
+    def run_query(self, query, params=None):
+        with self.connect() as conn:
+            cursor = conn.cursor(dictionary=True)
+            try:
+                cursor.execute(query, params or ())
+                rows = cursor.fetchall()
+                df = pd.DataFrame(rows)
+            except Exception as err:
+                st.error(f"Error running the query: {err}")
+                df = pd.DataFrame()
+            finally:
+                cursor.close()
+            return df
+
+    def run_action(self, query, params=None):
+        with self.connect() as conn:
+            cursor = conn.cursor()
+            try:
+                cursor.execute(query, params or ())
+                conn.commit()
+            except Exception as err:
+                st.error(f"Error running the action: {err}")
+            finally:
+                cursor.close()
+
+    
     def init_db(self):
         """Inicializa la base de datos y la tabla customer."""
         self.create_customer_table()
