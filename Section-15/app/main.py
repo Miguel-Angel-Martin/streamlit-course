@@ -1,7 +1,10 @@
 import streamlit as st
-
+from db.db_manager import DBManager
 from views.add_customers import add_customers
 from views.show_customers import show_customers
+
+db= DBManager()
+db.init_db()
 
 st.set_page_config("🚀 Streamlit + MySQL con Docker y clase DBManager", layout="wide")
 
@@ -12,6 +15,7 @@ with tab1:
 
 with tab2:
     show_customers()
+
 
 
 # Inicialización de la base de datos y tabla customer
