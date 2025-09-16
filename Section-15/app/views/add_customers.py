@@ -26,3 +26,5 @@ def add_customers():
                 with cc7: st.button("edit / delete", key=item['customer_id'])
     else:
         st.caption("No customers found in the database.")
+        
+        
