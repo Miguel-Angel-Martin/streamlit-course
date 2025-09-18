@@ -1,0 +1,11 @@
+services:
+  streamlit:
+    build: ./app
+    image: supabot:${IMAGE_VERSION:-latest}
+    container_name: supabot_app
+    restart: always
+    command: streamlit run main.py --server.port=8501 --server.address=0.0.0.0
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./app:/app
