@@ -1,15 +1,28 @@
 import streamlit as st
 from models.customer_model import CustomerModel
+from components.from_customers import form_customers
 
-@st.cache_data(ttl=60)
+
+#@st.cache_data(ttl=60)
 def fetch_all_customers():
     return CustomerModel.get_all_customers()
+
+
 
 def add_customers():
     st.title("Add customers")
     ss = st.session_state
     if "customers" not in ss:
-        ss["customers"] = None
+        ss.customers = []
+    if "id" not in ss:
+        ss.id = ""
+    
+    def getId(id):
+        ss.id = id
+        
+    _, col, _ = st.columns([1,3,1])
+    with col:
+        form_customers(ss.id)
     
     ss.customers = fetch_all_customers()
     
@@ -23,7 +36,7 @@ def add_customers():
                 with cc4: st.write(item['telephone'])
                 with cc5: st.write(item['project'])
                 with cc6: st.write(item['date'])
-                with cc7: st.button("edit / delete", key=item['customer_id'])
+                with cc7: st.button("edit / delete", key=item['customer_id'], on_click=getId, args=(item['customer_id'],))
     else:
         st.caption("No customers found in the database.")
         

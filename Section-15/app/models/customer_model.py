@@ -1,9 +1,10 @@
 from db.db_manager import DBManager
+from datetime import date
 
 db = DBManager()
 
 class CustomerModel:
-    def __init__(self, customer_id, name, surname, telephone, project, date):
+    def __init__(self, customer_id:int=None, name="", surname:str = "", telephone:str = "", project:str = "", date:str = date.today()):
         self.customer_id = customer_id
         self.name = name
         self.surname = surname
@@ -36,7 +37,14 @@ class CustomerModel:
             WHERE id = %s
         """
         params = (customer_id,)
-        return db.run_query(query, params, fetchone=True)
+        result = db.run_query(query, params)
+        
+        # Verificar que el DataFrame tenga al menos una fila
+        if not result.empty and len(result) > 0:
+            return result.iloc[0].to_dict()
+        else:
+            return None
+
 
     @staticmethod
     def update_customer(customer_id, name, surname, telephone, project, date):
