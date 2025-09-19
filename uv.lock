@@ -1301,6 +1301,19 @@ wheels = [
 ]
 
 [[package]]
+name = "streamlit-cookies-manager"
+version = "0.2.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "cryptography" },
+    { name = "streamlit" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a8/15/d016f1b2e1c547fecf7782dac3860d2aad4e22b4c1664d78bb2a873163ef/streamlit-cookies-manager-0.2.0.tar.gz", hash = "sha256:498531778bd4a63267364e8986b3774319d3ba2f4ba65a92357196723966e4d4", size = 680070, upload-time = "2021-12-25T13:42:42.064Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/61/60/d4aefff016f9fe48d10c59b2e52ae823444525f973e7948821c9eefb4217/streamlit_cookies_manager-0.2.0-py3-none-any.whl", hash = "sha256:12503dc3367dfc2a780cb9e4a81ad791737806a7b9d1c25a006386e32aabe956", size = 690962, upload-time = "2021-12-25T13:42:46.493Z" },
+]
+
+[[package]]
 name = "streamlit-course"
 version = "0.1.0"
 source = { virtual = "." }
@@ -1321,6 +1334,7 @@ dependencies = [
     { name = "streamlit" },
     { name = "streamlit-aggrid" },
     { name = "streamlit-chat" },
+    { name = "streamlit-cookies-manager" },
     { name = "streamlit-extras" },
 ]
 
@@ -1342,6 +1356,7 @@ requires-dist = [
     { name = "streamlit", specifier = ">=1.45.1" },
     { name = "streamlit-aggrid", specifier = ">=1.1.8.post1" },
     { name = "streamlit-chat", specifier = ">=0.1.1" },
+    { name = "streamlit-cookies-manager", specifier = ">=0.2.0" },
     { name = "streamlit-extras", specifier = ">=0.7.6" },
 ]
 
