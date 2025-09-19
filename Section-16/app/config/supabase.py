@@ -1,7 +1,7 @@
 import streamlit as st
 from supabase import create_client, Client
 
-
+@st.cache_resource
 def supabase_config():
     SUPABASE_URL= st.secrets["supabase"]["SUPABASE_URL"]
     SUPABASE_KEY= st.secrets["supabase"]["SUPABASE_KEY"]
