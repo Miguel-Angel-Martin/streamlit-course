@@ -20,6 +20,7 @@ dependencies = [
     "python-dotenv>=1.1.1",
     "streamlit>=1.45.1",
     "streamlit-aggrid>=1.1.8.post1",
+    "streamlit-base-extras>=0.2.45",
     "streamlit-chat>=0.1.1",
     "streamlit-cookies-manager>=0.2.0",
     "streamlit-extras>=0.7.6",

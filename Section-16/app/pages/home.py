@@ -11,6 +11,7 @@ cookies = EncryptedCookieManager(
 
 if not cookies.ready():
     st.write("Starting cookie manager... reload the page if its not starts.")
+    st.spinner()
     st.stop()
 
 session_id = cookies.get("session")
@@ -20,11 +21,17 @@ if not session_id:
   st.stop()
 
 
-st.subheader("SupaBot")
+st.subheader(f"Welcome {session_id}")
 with st.sidebar:
-  if st.button("Logout", icon=":material/exit_to_app:", type="tertiary"):
-    supabase.auth.sign_out()
-    cookies.clear()
-    cookies.save()
-    st.switch_page("main.py")
+    if st.button("Logout", icon=":material/exit_to_app:", type="tertiary"):
+        try:
+            response = supabase.auth.sign_out()
+        except Exception as e:
+            st.error(f"Error logging out supabase: {e}")
+        try:
+            del cookies['a-session']
+            st.switch_page("main.py")
+        except Exception as e:
+            st.error(f"Error logging out cookies: {e}")
 
+    
