@@ -34,6 +34,7 @@ with col:
                   supabase.table("users").insert(data).execute()
                   st.success("Account created successfully! Please check your email to verify your account.")
                   st.switch_page("main.py")
+                  st.rerun()
                 else:
                   st.error(f"Error creating account: {response}")
               except Exception as e:

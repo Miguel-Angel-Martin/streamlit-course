@@ -1,37 +1,35 @@
 import streamlit as st
-from streamlit_cookies_manager import EncryptedCookieManager
-from config.supabase import supabase_config
 
+from config.supabase import supabase_config
+from datetime import datetime, timedelta
+import time
 supabase = supabase_config()
 
-cookies = EncryptedCookieManager(
-    prefix="supabot",
-    password=st.secrets["client"]["COOKIES_PASSWORD"]
-)
+if 'authenticated' not in st.session_state:
+    st.session_state.authenticated = False
+if 'user_email' not in st.session_state:
+    st.session_state.user_email = None
+    
 
-if not cookies.ready():
-    st.write("Starting cookie manager... reload the page if its not starts.")
-    st.spinner()
-    st.stop()
-
-session_id = cookies.get("session")
-if not session_id:
-  st.warning("Please login to continue")
-  st.switch_page("main.py")
-  st.stop()
-
-
-st.subheader(f"Welcome {session_id}")
+st.subheader(f"Welcome {st.session_state.user_email}")
 with st.sidebar:
     if st.button("Logout", icon=":material/exit_to_app:", type="tertiary"):
-        try:
-            response = supabase.auth.sign_out()
-        except Exception as e:
-            st.error(f"Error logging out supabase: {e}")
-        try:
-            del cookies['a-session']
-            st.switch_page("main.py")
-        except Exception as e:
-            st.error(f"Error logging out cookies: {e}")
+      try:
+        # Cerrar sesión en Supabase
+        response = supabase.auth.sign_out()
+      except Exception as e:
+        st.error(f"Error logging out supabase: {e}")
+          
+      # Limpiar session state
+      st.session_state.authenticated = False
+      st.session_state.user_email = None
+      
+      # Limpiar cachés
+      st.cache_data.clear()
+      st.cache_resource.clear()
+      
+      # Mostrar mensaje y redirigir
+      st.success("Logout successful!")
+      st.switch_page("main.py")
 
     

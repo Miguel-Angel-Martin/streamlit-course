@@ -1,27 +1,25 @@
 import streamlit as st
 from config.supabase import supabase_config
-from streamlit_cookies_manager import EncryptedCookieManager
 import re
 
+st.set_page_config("SupaBot Gemini", page_icon=":material/robot_2:", layout="wide")
+
+if 'authenticated' not in st.session_state:
+    st.session_state.authenticated = False
+if 'user_email' not in st.session_state:
+    st.session_state.user_email = None
+    
+if st.session_state.authenticated:
+    st.success(f"Already logged in as {st.session_state.user_email}")
+    if st.button("Go to Dashboard"):
+        st.switch_page("dashboard.py")  # o tu página principal
+    st.stop()
+    
+    
 def check_email(email: str) -> bool:
     pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
     return re.match(pattern, email) is not None
 
-
-cookies = EncryptedCookieManager(
-    prefix="supabot",
-    password=st.secrets["client"]["COOKIES_PASSWORD"]
-)
-
-if not cookies.ready():
-    st.stop() 
-
-session_id = cookies.get("session")
-if session_id:
-    st.switch_page("pages/home.py")
-    
-    
-st.set_page_config("SupaBot Gemini", page_icon=":material/robot_2:", layout="wide")
 
 st.markdown("<center><h1>Supabot: Supabse and Genimi AI</h1></center>", unsafe_allow_html=True)
 _, col, _ = st.columns([3,3,3])
@@ -43,10 +41,11 @@ with col:
                     "password": password
                 })
                 if response.user.id:
-                  user_id = response.user.id
-                  cookies["session"] = user_id
-                  cookies.save()
-                  st.switch_page("pages/home.py")
+                  user_id = response.user.id                  
+                  st.session_state.authenticated = True
+                  st.session_state.user_email = email
+                  st.success("Login successful!")
+                  st.switch_page("pages/home.py") 
                 elif response.error:
                   st.error(f"Login error: {response.error}")
                 else:
