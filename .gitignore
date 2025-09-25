@@ -5,6 +5,6 @@ __pycache__/
 .venv/
 str-dev
 
-Section-11/.streamlit/secrets.toml
+**/secrets.toml 
 Section-15/database/*
 !Section-15/database/.gitkeep

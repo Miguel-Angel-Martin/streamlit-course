@@ -20,3 +20,12 @@ streamlit run text.py --server.port 5000
 uv add streamlit-extras
 uv pip install streamlit-aggrid
 uv pip sync pyproject.toml                             
+
+
+## para crear requirements.txt limpio y estatico
+
+uv export --format requirements-txt > requirements.txt   
+
+uv export --format requirements-txt --no-hashes > requirements.txt  
+
+uv export --format requirements-txt --no-hashes | sed 's/==/>=/' > requirements.txt
