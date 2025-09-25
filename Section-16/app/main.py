@@ -44,6 +44,7 @@ with col:
                   user_id = response.user.id                  
                   st.session_state.authenticated = True
                   st.session_state.user_email = email
+                  st.session_state.user_id = user_id
                   st.success("Login successful!")
                   st.switch_page("pages/home.py") 
                 elif response.error:

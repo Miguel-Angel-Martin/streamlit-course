@@ -1,8 +1,10 @@
 import streamlit as st
-
 from config.supabase import supabase_config
+import controller.supabase as sc
 from datetime import datetime, timedelta
+
 import time
+
 supabase = supabase_config()
 
 if 'authenticated' not in st.session_state:
@@ -31,5 +33,10 @@ with st.sidebar:
       # Mostrar mensaje y redirigir
       st.success("Logout successful!")
       st.switch_page("main.py")
+    
+    user = sc.getUser(st.session_state.user_id)
+    st.subheader(f":blue-background[Welcome {user}]")
+    
+
 
     
